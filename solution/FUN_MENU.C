@@ -4,7 +4,7 @@ int menu();
 void sum();
 void palindrom(int);
 int armstrong();
-int squre(int);
+void squre(int);
 void main()
 {
 	int a,b,c;
@@ -33,7 +33,7 @@ void main()
 			case 4:
 				printf("enter any number to print squre serise:");
 				scanf("%d",&a);
-				c=squre(a);
+				squre(a);
 				break;
 			case 5:
 				exit(0);
@@ -103,11 +103,10 @@ int armstrong()
 	else
 		return 0;
 }
-int squre(int a)
+void squre(int a)
 {
 	int i;
 	printf("\n\n");
 	for(i=1;i<=a;i++)
 		printf("%d ",i*i);
-	return 0;
 }
