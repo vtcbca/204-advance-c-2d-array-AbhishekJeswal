@@ -54,7 +54,7 @@ int menu()
 	printf("\n\t2\tsum of palindrom\n");
 	printf("\n\t3\tsum of armstrong\n");
 	printf("\n\t4\tsum of squre serise\n");
-	printf("\n\t5\tsum of exit\n____________________________________________\n");
+	printf("\n\t5\texit\n____________________________________________\n");
 	printf("enter your choise:");
 	scanf("%d",&choise);
 	return choise;
